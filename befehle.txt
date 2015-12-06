@@ -1,0 +1,57 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/gdal_master/lib
+export PYTHONPATH=$PYTHONPATH:/usr/local/gdal_master/lib/python2.7/site-packages/GDAL-2.1.0-py2.7-linux-x86_64.egg
+
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_0.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_1.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_2.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_3.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_4.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_5.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_6.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_7.TIF
+/usr/local/gdal_master/bin/gdal_edit.py -unsetnodata Mos_RGB_8bit_Tile_8.TIF
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_0.TIF ziegler/Mos_RGB_8bit_Tile_0.tif
+
+gdaladdo Mos_RGB_8bit_Tile_0.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_1.TIF ziegler/Mos_RGB_8bit_Tile_1.tif
+
+gdaladdo Mos_RGB_8bit_Tile_1.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_2.TIF ziegler/Mos_RGB_8bit_Tile_2.tif
+
+gdaladdo Mos_RGB_8bit_Tile_2.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_3.TIF ziegler/Mos_RGB_8bit_Tile_3.tif
+
+gdaladdo Mos_RGB_8bit_Tile_3.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRDEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_4.TIF ziegler/Mos_RGB_8bit_Tile_4.tif
+
+gdaladdo Mos_RGB_8bit_Tile_4.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_5.TIF ziegler/Mos_RGB_8bit_Tile_5.tif
+
+gdaladdo Mos_RGB_8bit_Tile_5.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_6.TIF ziegler/Mos_RGB_8bit_Tile_6.tif
+
+gdaladdo Mos_RGB_8bit_Tile_6.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRESS=DEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_7.TIF ziegler/Mos_RGB_8bit_Tile_7.tif
+
+gdaladdo Mos_RGB_8bit_Tile_7.tif 2 4 8 16 32 64
+
+
+gdal_translate -a_srs EPSG:2056 -co TILED=YES -co COMPRDEFLATE -co PREDICTOR=2 Mos_RGB_8bit_Tile_8.TIF ziegler/Mos_RGB_8bit_Tile_8.tif
+
+gdaladdo Mos_RGB_8bit_Tile_8.tif 2 4 8 16 32 64
