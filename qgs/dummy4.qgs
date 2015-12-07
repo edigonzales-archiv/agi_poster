@@ -371,7 +371,7 @@
           <annotationFontProperties description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="210" page="1" id="" lastValidViewScaleFactor="25.0992" positionMode="0" positionLock="true" x="307.85" y="210" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="282.3" outlineWidth="0.3" excludeFromExports="0" uuid="{954fb8da-9ea4-4ea5-9284-97adcf931a5f}" height="180.15" itemRotation="0" frame="false" pagex="307.85">
+        <ComposerItem pagey="210" page="1" id="" lastValidViewScaleFactor="5.31816" positionMode="0" positionLock="true" x="307.85" y="210" visibility="1" zValue="11" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="282.3" outlineWidth="0.3" excludeFromExports="0" uuid="{954fb8da-9ea4-4ea5-9284-97adcf931a5f}" height="180.15" itemRotation="0" frame="false" pagex="307.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -637,7 +637,7 @@
     </Composition>
   </Composer>
   <projectlayers layercount="4">
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>bp_farbe_1000020151207200252143</id>
       <datasource>../../../Downloads/olten/10000/farbe/bp_farbe_10000.vrt</datasource>
       <title></title>
@@ -677,11 +677,11 @@
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>bp_farbig20151206194254737</id>
       <datasource>../../../Downloads/olten/farbig/bp_farbig.vrt</datasource>
       <title></title>
@@ -721,11 +721,11 @@
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+        <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>bp_sw20151207192813637</id>
       <datasource>../../../Downloads/olten/sw/bp_sw.vrt</datasource>
       <title></title>
@@ -757,7 +757,7 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" band="1" type="paletted">
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="paletted">
           <rasterTransparency/>
           <colorPalette>
             <paletteEntry value="0" color="#ffffff" label="0"/>
@@ -766,7 +766,7 @@
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="4" zoomedOutResampler="bilinear"/>
+        <rasterresampler maxOversampling="8" zoomedOutResampler="bilinear"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
@@ -811,7 +811,7 @@
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
+        <rasterresampler maxOversampling="8" zoomedOutResampler="bilinear"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
