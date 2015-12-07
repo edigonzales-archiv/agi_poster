@@ -54,7 +54,7 @@
     </legendlayer>
   </legend>
   <Composer title="Composer 1" visible="1">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="600" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="400" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="600" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="400" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -73,7 +73,7 @@
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Orthofotos sind in der Welt der Geoinformation kaum noch wegzudenken. In Gebieten mit Vegetation stösst man allerdings immer wieder an Grenzen. Die benötigten Informationen sind durch Bäume oder Schatten verdeckt. Die Daten aus dem luftgestützten Laserscanning liefern dann die Informationen, die auf dem Orthofoto verborgen bleiben." htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="250.951" y="10" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="200.066" outlineWidth="0.3" excludeFromExports="0" uuid="{b716aad0-8375-4d7f-8b1a-ef76b4b7a8ee}" height="23.642" itemRotation="0" frame="false" pagex="250.951">
+        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="250.951" y="10" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="200.066" outlineWidth="0.3" excludeFromExports="0" uuid="{b716aad0-8375-4d7f-8b1a-ef76b4b7a8ee}" height="23.642" itemRotation="0" frame="false" pagex="250.951">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -82,14 +82,14 @@
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="DTM-Hangneigung und Orthofoto | 1:2'500" htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,12,-1,5,75,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="148.984" y="10" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.735" outlineWidth="0.3" excludeFromExports="0" uuid="{eee7e443-a597-40f0-b417-8322c3e2660f}" height="12.005" itemRotation="0" frame="false" pagex="148.984">
+        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="148.984" y="10" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.735" outlineWidth="0.3" excludeFromExports="0" uuid="{eee7e443-a597-40f0-b417-8322c3e2660f}" height="12.005" itemRotation="0" frame="false" pagex="148.984">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="60" file="../logo/kanton_4f.svg" pictureHeight="5.42857" mapId="-1" anchorPoint="0">
-        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="530.15" y="10" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60" outlineWidth="0.3" excludeFromExports="0" uuid="{b9aa7b29-e1d0-4b10-9b86-60c37b932ee0}" height="12.24" itemRotation="0" frame="false" pagex="530.15">
+        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="530.15" y="10" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60" outlineWidth="0.3" excludeFromExports="0" uuid="{b9aa7b29-e1d0-4b10-9b86-60c37b932ee0}" height="12.24" itemRotation="0" frame="false" pagex="530.15">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
@@ -99,7 +99,7 @@
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="17" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="64.594" y="17" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.744" outlineWidth="0.3" excludeFromExports="0" uuid="{459af6bd-bb84-4aca-befa-bd36d3ee7a54}" height="10.425" itemRotation="0" frame="false" pagex="64.594">
+        <ComposerItem pagey="17" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="64.594" y="17" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.744" outlineWidth="0.3" excludeFromExports="0" uuid="{459af6bd-bb84-4aca-befa-bd36d3ee7a54}" height="10.425" itemRotation="0" frame="false" pagex="64.594">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -108,7 +108,7 @@
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Telefon 032 627 75 92" htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="64.594" y="10" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="48.5" outlineWidth="0.3" excludeFromExports="0" uuid="{a29ccf1d-ba5f-4a10-935b-ceb66bbd7c96}" height="6.634" itemRotation="0" frame="false" pagex="64.594">
+        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="64.594" y="10" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="48.5" outlineWidth="0.3" excludeFromExports="0" uuid="{a29ccf1d-ba5f-4a10-935b-ceb66bbd7c96}" height="6.634" itemRotation="0" frame="false" pagex="64.594">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -117,7 +117,7 @@
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Rötistrasse 4&#xa;4501 Solothurn" htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="17" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.85" y="17" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.744" outlineWidth="0.3" excludeFromExports="0" uuid="{32414cec-d709-4ef3-b59d-bbf89d6cc625}" height="10.425" itemRotation="0" frame="false" pagex="9.85">
+        <ComposerItem pagey="17" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.85" y="17" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.744" outlineWidth="0.3" excludeFromExports="0" uuid="{32414cec-d709-4ef3-b59d-bbf89d6cc625}" height="10.425" itemRotation="0" frame="false" pagex="9.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -126,14 +126,14 @@
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Amt für Geoinformation" htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,10,-1,5,75,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.85" y="10" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.5" outlineWidth="0.3" excludeFromExports="0" uuid="{6a1b181d-b706-47f2-be08-d3636f7c9ac1}" height="6.634" itemRotation="0" frame="false" pagex="9.85">
+        <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.85" y="10" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.5" outlineWidth="0.3" excludeFromExports="0" uuid="{6a1b181d-b706-47f2-be08-d3636f7c9ac1}" height="6.634" itemRotation="0" frame="false" pagex="9.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="236191.32235727302031592" xmin="609448.55461835977621377" ymax="237091.32235819107154384" xmax="610898.55461983871646225"/>
+        <Extent ymin="236191.32235727302031592" xmin="609448.55461835977621377" ymax="237091.32235819098423235" xmax="610898.55461983871646225"/>
         <LayerSet/>
         <Grid/>
         <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{e08db020-1979-48da-8559-e8113b2d1b80}" leftAnnotationDirection="0" topAnnotationPosition="0" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="500" gridFrameSideFlags="15" intervalY="500" bottomAnnotationDirection="1" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="2" rightAnnotationPosition="0" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="1" frameAnnotationDistance="1">
@@ -191,10 +191,10 @@
             <ellipsoidacronym>bessel</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
-          <annotationFontProperties description="Frutiger LT Com Condensed,10,-1,5,50,2,0,0,0,0" style="Oblique"/>
+          <annotationFontProperties description="Frutiger LT Com Condensed,10,-1,5,50,2,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="30" page="1" id="" lastValidViewScaleFactor="5.5994" positionMode="0" positionLock="true" x="10" y="30" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="580" outlineWidth="0.3" excludeFromExports="0" uuid="{b07ecf62-f112-4ed5-a885-0e0c3be4e01c}" height="360" itemRotation="0" frame="true" pagex="10">
+        <ComposerItem pagey="30" page="1" id="" lastValidViewScaleFactor="1.63147" positionMode="0" positionLock="true" x="10" y="30" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="580" outlineWidth="0.3" excludeFromExports="0" uuid="{b07ecf62-f112-4ed5-a885-0e0c3be4e01c}" height="360" itemRotation="0" frame="true" pagex="10">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -209,7 +209,7 @@
       </customproperties>
     </Composition>
   </Composer>
-  <Composer title="Composer 2" visible="1">
+  <Composer title="Composer 2" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="841" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="1189" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -235,15 +235,6 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Satellitenfoto Balsthal | 1:1'500" htmlState="0" halign="1">
-        <LabelFont description="Frutiger 55 Roman,12,-1,5,75,0,0,0,0,0" style="Bold"/>
-        <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="1163.82" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="272.242" y="1163.82" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="86.083" outlineWidth="0.3" excludeFromExports="0" uuid="{e9e42827-08ac-447b-8b1d-312139a3a6df}" height="12.005" itemRotation="0" frame="false" pagex="272.242">
-          <FrameColor alpha="255" red="0" blue="0" green="0"/>
-          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
-        </ComposerItem>
-      </ComposerLabel>
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="agi@bd.so.ch&#xa;www.agi.so.ch" htmlState="0" halign="1">
         <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
@@ -253,8 +244,17 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
+      <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Satellitenfoto Balsthal | 1:1'500" htmlState="0" halign="1">
+        <LabelFont description="Frutiger 55 Roman,12,-1,5,75,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="1163.82" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="272.242" y="1163.82" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="86.083" outlineWidth="0.3" excludeFromExports="0" uuid="{e9e42827-08ac-447b-8b1d-312139a3a6df}" height="12.005" itemRotation="0" frame="false" pagex="272.242">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
       <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="60" file="../logo/kanton_4f.svg" pictureHeight="5.42857" mapId="-1" anchorPoint="0">
-        <ComposerItem pagey="1164.43" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="771" y="1164.43" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60" outlineWidth="0.3" excludeFromExports="0" uuid="{ec399334-946b-4e1b-8d7c-6a55e65b6b05}" height="12.24" itemRotation="0" frame="false" pagex="771">
+        <ComposerItem pagey="1164.43" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="771" y="1164.43" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60" outlineWidth="0.3" excludeFromExports="0" uuid="{ec399334-946b-4e1b-8d7c-6a55e65b6b05}" height="12.24" itemRotation="0" frame="false" pagex="771">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
@@ -262,16 +262,16 @@
         </ComposerItem>
       </ComposerPicture>
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Telefon 032 627 75 92" htmlState="0" halign="1">
-        <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style="Italic"/>
+        <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="1163.82" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="64.594" y="1163.82" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="48.5" outlineWidth="0.3" excludeFromExports="0" uuid="{6aff6e9e-8658-4630-a375-ee4cd363c0d0}" height="6.634" itemRotation="0" frame="false" pagex="64.594">
+        <ComposerItem pagey="1163.82" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="64.594" y="1163.82" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="48.5" outlineWidth="0.3" excludeFromExports="0" uuid="{6aff6e9e-8658-4630-a375-ee4cd363c0d0}" height="6.634" itemRotation="0" frame="false" pagex="64.594">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Rötistrasse 4&#xa;4501 Solothurn" htmlState="0" halign="1">
-        <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style="Italic"/>
+        <LabelFont description="Frutiger 55 Roman,10,-1,5,50,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="1170.45" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.85" y="1170.45" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.7437" outlineWidth="0.3" excludeFromExports="0" uuid="{463c6982-f87b-4bb0-aebd-14adb1a42c35}" height="10.425" itemRotation="0" frame="false" pagex="9.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -280,7 +280,7 @@
         </ComposerItem>
       </ComposerLabel>
       <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Amt für Geoinformation" htmlState="0" halign="1">
-        <LabelFont description="Frutiger 55 Roman,10,-1,5,75,1,0,0,0,0" style="Bold Italic"/>
+        <LabelFont description="Frutiger 55 Roman,10,-1,5,75,1,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="1163.82" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.85" y="1163.82" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4999" outlineWidth="0.3" excludeFromExports="0" uuid="{c76edd26-2838-4f53-b7e3-412d57b19bf9}" height="6.63437" itemRotation="0" frame="false" pagex="9.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
@@ -347,7 +347,7 @@
             <ellipsoidacronym>bessel</ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
-          <annotationFontProperties description="Frutiger LT Com Condensed,10,-1,5,50,2,0,0,0,0" style="Oblique"/>
+          <annotationFontProperties description="Frutiger LT Com Condensed,10,-1,5,50,2,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
         <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="1.88976" positionMode="0" positionLock="true" x="10" y="10" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="821" outlineWidth="0.3" excludeFromExports="0" uuid="{dbe8b884-2520-41e0-9afb-c169c947d01a}" height="1149" itemRotation="0" frame="true" pagex="10">
@@ -470,17 +470,17 @@
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>

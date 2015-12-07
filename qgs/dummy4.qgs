@@ -311,7 +311,7 @@
         </LayerSet>
         <Grid/>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="29.85" page="1" id="" lastValidViewScaleFactor="25.0992" positionMode="0" positionLock="true" x="307.85" y="29.85" visibility="1" zValue="12" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="282.3" outlineWidth="0.3" excludeFromExports="0" uuid="{5a077fed-d3a5-41e6-90bd-c3ca8c11405e}" height="180.15" itemRotation="0" frame="false" pagex="307.85">
+        <ComposerItem pagey="29.85" page="1" id="" lastValidViewScaleFactor="5.31816" positionMode="0" positionLock="true" x="307.85" y="29.85" visibility="1" zValue="12" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="282.3" outlineWidth="0.3" excludeFromExports="0" uuid="{5a077fed-d3a5-41e6-90bd-c3ca8c11405e}" height="180.15" itemRotation="0" frame="false" pagex="307.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -431,7 +431,7 @@
           <annotationFontProperties description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="210" page="1" id="" lastValidViewScaleFactor="25.0992" positionMode="0" positionLock="true" x="9.85" y="210" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="298" outlineWidth="0.3" excludeFromExports="0" uuid="{7e06b69a-9ecd-43d4-a13d-21870c0c738f}" height="180.15" itemRotation="0" frame="false" pagex="9.85">
+        <ComposerItem pagey="210" page="1" id="" lastValidViewScaleFactor="5.31816" positionMode="0" positionLock="true" x="9.85" y="210" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="298" outlineWidth="0.3" excludeFromExports="0" uuid="{7e06b69a-9ecd-43d4-a13d-21870c0c738f}" height="180.15" itemRotation="0" frame="false" pagex="9.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -491,7 +491,7 @@
           <annotationFontProperties description="Frutiger 55 Roman,10,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="29.85" page="1" id="" lastValidViewScaleFactor="23.1911" positionMode="0" positionLock="true" x="9.85" y="29.85" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="298" outlineWidth="0.3" excludeFromExports="0" uuid="{65145d4c-89c2-42e9-a0ad-516486e82f1b}" height="180.15" itemRotation="0" frame="false" pagex="9.85">
+        <ComposerItem pagey="29.85" page="1" id="" lastValidViewScaleFactor="5.31816" positionMode="0" positionLock="true" x="9.85" y="29.85" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="298" outlineWidth="0.3" excludeFromExports="0" uuid="{65145d4c-89c2-42e9-a0ad-516486e82f1b}" height="180.15" itemRotation="0" frame="false" pagex="9.85">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
